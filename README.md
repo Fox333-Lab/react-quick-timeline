@@ -140,8 +140,6 @@ function App() {
 
 #### Change text color
 
-<br />
-
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
 import data from "./data.json";
@@ -162,8 +160,6 @@ function App() {
 <br />
 
 #### Change font to bold or italics
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -188,9 +184,9 @@ function App() {
 
 > ### Title of timeline blocks
 
-#### Change background or text color of title
-
 <br />
+
+#### Change background or text color of title
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -213,8 +209,6 @@ function App() {
 
 #### Change title text alignment
 
-<br />
-
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
 import data from "./data.json";
@@ -236,8 +230,6 @@ function App() {
 <br />
 
 #### Change font to bold or italics
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -263,9 +255,9 @@ function App() {
 
 > ### Content/details of timeline blocks
 
-#### Change background or text color of content
-
 <br />
+
+#### Change background or text color of content
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -288,8 +280,6 @@ function App() {
 
 #### Change title text alignment
 
-<br />
-
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
 import data from "./data.json";
@@ -311,8 +301,6 @@ function App() {
 <br />
 
 #### Change font to bold or italics
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -360,9 +348,9 @@ function App() {
 
 > ### Date
 
-#### Change text color
-
 <br />
+
+#### Change text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -380,8 +368,6 @@ function App() {
 <br />
 
 #### Change font to bold or italics
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -424,9 +410,9 @@ function App() {
 
 > ### Time circles
 
-#### change background color
-
 <br />
+
+#### change background color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -444,8 +430,6 @@ function App() {
 <br />
 
 #### change background color
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -463,8 +447,6 @@ function App() {
 <br />
 
 #### Change border color
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -486,8 +468,6 @@ function App() {
 <br />
 
 #### Hide border
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -529,8 +509,6 @@ function App() {
 
 #### Change footer caption color
 
-<br />
-
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
 import data from "./data.json";
@@ -551,8 +529,6 @@ function App() {
 <br />
 
 #### Change font to bold or italics
-
-<br />
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
