@@ -62,6 +62,8 @@ Below is the base format of the array:
 ]
 ```
 
+<br />
+
 | Attribute | Description                                     |
 | --------- | ----------------------------------------------- |
 | title     | defines title of the timeline block             |
@@ -117,9 +119,9 @@ The timeline component is very much customizable to your specific need and you c
 
 > ### Header Caption
 
-#### Add a header caption
-
 <br />
+
+#### Add a header caption
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
