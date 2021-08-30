@@ -68,15 +68,16 @@ Below is the base format of the array:
 | content   | defines the actual content/details of the block |
 | date      | defines the date of the block                   |
 
+<br />
+<br />
+
 > _Each object in the array defines individual timeline block. The number of elements totally depends as per your requirement, there is no limit to number of object for timeline blocks_
 
 > _with just the above basic config the below timeline is rendered in the UI_
 
-![Basic timeline](timeline_screenshot.JPG "Basic Timeline")
-
 <br />
 
----
+![Basic timeline](timeline_screenshot.JPG "Basic Timeline")
 
 <br />
 
@@ -115,8 +116,6 @@ The timeline component is very much customizable to your specific need and you c
 <br />
 
 > ### Header Caption
-
-<br />
 
 #### Add a header caption
 
@@ -186,8 +185,6 @@ function App() {
 <br />
 
 > ### Title of timeline blocks
-
-<br />
 
 #### Change background or text color of title
 
@@ -263,8 +260,6 @@ function App() {
 <br />
 
 > ### Content/details of timeline blocks
-
-<br />
 
 #### Change background or text color of content
 
@@ -363,8 +358,6 @@ function App() {
 
 > ### Date
 
-<br />
-
 #### Change text color
 
 <br />
@@ -428,8 +421,6 @@ function App() {
 <br />
 
 > ### Time circles
-
-<br />
 
 #### change background color
 
