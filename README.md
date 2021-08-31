@@ -548,3 +548,52 @@ function App() {
   );
 }
 ```
+
+<br />
+
+### Individual Block Customization
+
+Apart from the generic customization using props in `<QuickTimeline>` component each timeline block can be styled using the same properties by incorporating it inside individual object in the data array like below:
+
+```json
+[
+  {
+    "title": "Title 1",
+    "content": "Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.",
+    "date": "26th Feb",
+    "titleBgColor": "#112233",
+    "titleTextColor": "white",
+    "titleTextAlign": "center",
+    "titleIsBold": true,
+    "titleIsItalic": false
+  },
+  {
+    "title": "Title 2",
+    "content": "Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.",
+    "date": "26th Feb",
+    "contentBgColor": "green",
+    "contentTextColor": "white",
+    "contentTextAlign": "center",
+    "contentIsBold": false,
+    "contentIsItalic": true,
+    "borderRoundSize": 20,
+    "dateColor": "red",
+    "dateIsBold": true,
+    "dateIsItalic": true
+  }
+]
+```
+
+which will render the output as below
+
+![Advance timeline](images/timeline_custom_screenshot.JPG "Advance Timeline")
+
+<br />
+
+Thats All, Happy Timelining 🙂
+
+<br />
+
+# License
+
+MIT &copy; [Sajin Soman](https://github.com/Fox333-Lab)
