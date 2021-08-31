@@ -59,8 +59,18 @@ export const TimeLineBlocks = ({
         : tlb.titleIsBold === true
         ? "italic"
         : "normal",
-    borderTopLeftRadius: `${borderRoundSize}px`,
-    borderTopRightRadius: `${borderRoundSize}px`,
+    borderTopLeftRadius:
+      tlb.borderRoundSize === undefined
+        ? borderRoundSize === undefined
+          ? "0px"
+          : `${borderRoundSize}px`
+        : `${tlb.borderRoundSize}px`,
+    borderTopRightRadius:
+      tlb.borderRoundSize === undefined
+        ? borderRoundSize === undefined
+          ? "0px"
+          : `${borderRoundSize}px`
+        : `${tlb.borderRoundSize}px`,
     textAlign:
       tlb.titleTextAlign === undefined || tlb.titleTextAlign === ""
         ? titleTextAlign === undefined || titleTextAlign === ""
@@ -97,7 +107,12 @@ export const TimeLineBlocks = ({
         : tlb.contentIsItalic === true
         ? "italic"
         : "normal",
-    borderRadius: `${borderRoundSize}px`,
+    borderRadius:
+      tlb.borderRoundSize === undefined
+        ? borderRoundSize === undefined
+          ? "0px"
+          : `${borderRoundSize}px`
+        : `${tlb.borderRoundSize}px`,
     textAlign:
       tlb.contentTextAlign === undefined || tlb.contentTextAlign === ""
         ? contentTextAlign === undefined || contentTextAlign === ""
