@@ -79,7 +79,7 @@ Below is the base format of the array:
 
 <br />
 
-![Basic timeline](timeline_screenshot.JPG "Basic Timeline")
+![Basic timeline](images/timeline_screenshot.JPG "Basic Timeline")
 
 <br />
 
