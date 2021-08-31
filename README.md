@@ -79,7 +79,7 @@ Below is the base format of the array:
 
 <br />
 
-![Basic timeline](timeline_screenshot.JPG "Basic Timeline")
+![Basic timeline](https://github.com/Fox333-Lab/fox-assets/tree/master/react-quick-timleine/screenshots/timeline_screenshot.JPG "Basic Timeline")
 
 <br />
 
