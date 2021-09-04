@@ -567,9 +567,33 @@ Apart from the generic customization using props in `<QuickTimeline>` component 
 ]
 ```
 
-which will render the output as below
+<br />
+
+| Attribute        | Value                                | Description                                                                             |
+| ---------------- | ------------------------------------ | --------------------------------------------------------------------------------------- |
+| titleBgColor     | #ffffff / rgb(255,255,255) / "white" | defines title's background color of individual timeline block                           |
+| titleTextColor   | #ffffff / rgb(255,255,255) / "white" | defines title's text color of individual timeline block                                 |
+| titleTextAlign   | left / center / right                | defines title's text alignment of individual timeline block                             |
+| titleIsBold      | true / false                         | defines if title's text should be bold or not of individual timeline block              |
+| titleIsItalic    | true / false                         | defines if title's text should be italic or not of individual timeline block            |
+| contentBgColor   | #ffffff / rgb(255,255,255) / "white" | defines content's background color of individual timeline block                         |
+| contentTextColor | #ffffff / rgb(255,255,255) / "white" | defines content's text color of individual timeline block                               |
+| contentTextAlign | left / center / right                | defines content's text alignment of individual timeline block                           |
+| contentIsBold    | true / false                         | defines if content's text should be bold or not of individual timeline block            |
+| contentIsItalic  | true / false                         | defines if content's text should be italic or not of individual timeline block          |
+| borderRoundSize  | integer between 0 to 30              | defines the border round size of individual timeline block. Takes value between 0 to 30 |
+| dateColor        | #ffffff / rgb(255,255,255) / "white" | defines the text color of date of individual timeline block                             |
+| dateIsBold       | true / false                         | defines if date's text should be bold or not of individual timeline block               |
+| dateIsItalic     | true / false                         | defines if date's text should be italic or not of individual timeline block             |
+
+<br />
+This will render the output as below
 
 ![Advance timeline](images/timeline_custom_screenshot.JPG "Advance Timeline")
+
+<br />
+
+> Note : the _props_ related to time circles `(circleBgColor, circleBorderColor, circleBorderHide)` are generic and cannot be customized individually i.e, they cannot be used inside the _.json_ file
 
 <br />
 
