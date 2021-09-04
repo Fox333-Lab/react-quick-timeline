@@ -89,31 +89,31 @@ Below is the base format of the array:
 
 The timeline component is very much customizable to your specific need and you can perform the below customizations:
 
-1. Header caption
-   - Add a header caption
-   - Change text color
-   - Change font to bold or italics
-2. Title of timeline blocks
-   - Change background/text color
-   - Change text alignment
-   - Change font to bold or italics
-3. Content/details of timeline blocks
-   - Change background/text color
-   - Change text alignment
-   - Change font to bold or italics
-4. Change blocks border's round size
-5. Date
-   - Change text color
-   - Change font to bold or italics
-6. Change color of timeline's vertical line
-7. Time circles
-   - Change background color
-   - Change border color
-   - Hide border
-8. Footer caption
-   - Add a footer caption
-   - Change text color
-   - Change font to bold or italics
+1. [Header caption](#header-caption)
+   - [Add a header caption](#add-a-header-caption)
+   - [Change header text color](#change-header-text-color)
+   - [Change header font to bold or italics](#change-header-font-to-bold-or-italics)
+2. [Title of timeline blocks](#Title-of-timeline-blocks)
+   - [Change title background and text color](#change-title-background-and-text-color)
+   - [Change title text alignment](#change-title-text-alignment)
+   - [Change title font to bold and italics](#change-title-font-to-bold-and-italics)
+3. [Content section of timeline blocks](#content-section-of-timeline-blocks)
+   - [Change content background and text color](#change-content-background-and-text-color)
+   - [Change content text alignment](#change-content-text-alignment)
+   - [Change content font to bold and italics](#change-content-font-to-bold-and-italics)
+   - [Change blocks border round size](#change-blocks-border-round-size)
+4. [Date](#date)
+   - [Change date text color](#change-date-text-color)
+   - [Change date font to bold and italics](#change-date-font-to-bold-and-italics)
+5. [Change color of timeline vertical line](#change-color-of-timeline-vertical-line)
+6. [Time circles](#time-circles)
+   - [Change circles background color](#change-circles-background-color)
+   - [Change circles border color](#change-circles-border-color)
+   - [Hide circles border](#hide-circles-border)
+7. [Footer caption](#footer-caption)
+   - [Add a footer caption](#add-a-footer-caption)
+   - [Change footer text color](#change-footer-text-color)
+   - [Change footer font to bold or italics](#change-footer-font-to-bold-or-italics)
 
 <br />
 
@@ -138,7 +138,7 @@ function App() {
 
 <br />
 
-#### Change text color
+#### Change header text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -159,7 +159,7 @@ function App() {
 
 <br />
 
-#### Change font to bold or italics
+#### Change header font to bold or italics
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -186,7 +186,7 @@ function App() {
 
 <br />
 
-#### Change background or text color of title
+#### Change title background and text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -229,7 +229,7 @@ function App() {
 
 <br />
 
-#### Change font to bold or italics
+#### Change title font to bold and italics
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -253,11 +253,11 @@ function App() {
 
 <br />
 
-> ### Content/details of timeline blocks
+> ### Content section of timeline blocks
 
 <br />
 
-#### Change background or text color of content
+#### Change content background and text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -278,7 +278,7 @@ function App() {
 
 <br />
 
-#### Change title text alignment
+#### Change content text alignment
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -300,7 +300,7 @@ function App() {
 
 <br />
 
-#### Change font to bold or italics
+#### Change content font to bold and italics
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -324,9 +324,7 @@ function App() {
 
 <br />
 
-> ### Change blocks border's round size
-
-<br />
+#### Change blocks border round size
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -350,7 +348,7 @@ function App() {
 
 <br />
 
-#### Change text color
+#### Change date text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -367,7 +365,7 @@ function App() {
 
 <br />
 
-#### Change font to bold or italics
+#### Change date font to bold and italics
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -389,7 +387,7 @@ function App() {
 
 <br />
 
-> ### Change color of timeline's vertical line
+> ### Change color of timeline vertical line
 
 <br />
 
@@ -412,7 +410,7 @@ function App() {
 
 <br />
 
-#### change background color
+#### change circles background color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -429,24 +427,7 @@ function App() {
 
 <br />
 
-#### change background color
-
-```javascript
-import { QuickTimeline } from "react-quick-timeline";
-import data from "./data.json";
-
-function App() {
-  return (
-    <div className="App">
-      <QuickTimeline timelineBlocks={data} circleBgColor={red} />
-    </div>
-  );
-}
-```
-
-<br />
-
-#### Change border color
+#### Change circles border color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -467,7 +448,7 @@ function App() {
 
 <br />
 
-#### Hide border
+#### Hide circles border
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -492,6 +473,8 @@ function App() {
 
 <br />
 
+#### Add a footer caption
+
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
 import data from "./data.json";
@@ -507,7 +490,7 @@ function App() {
 
 <br />
 
-#### Change footer caption color
+#### Change footer text color
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
@@ -528,7 +511,7 @@ function App() {
 
 <br />
 
-#### Change font to bold or italics
+#### Change footer font to bold or italics
 
 ```javascript
 import { QuickTimeline } from "react-quick-timeline";
