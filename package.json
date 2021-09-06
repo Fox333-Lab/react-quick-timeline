@@ -1,7 +1,7 @@
 {
   "name": "react-quick-timeline",
   "version": "1.0.0",
-  "description": "A simple, customizable & quick timeline UI component for react apps",
+  "description": "A simple, customizable, responsive & quick timeline UI component for react apps",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "build-storybook": "build-storybook",
     "build": "rollup -c",
     "prepublish": "npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fox333-Lab/react-quick-timeline.git"
   },
   "browserslist": {
     "production": [

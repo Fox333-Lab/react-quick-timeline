@@ -1,6 +1,8 @@
 # react-quick-timeline
 
-A simple, customizable &amp; quick timeline UI component for reactjs applications.
+![NPM](https://img.shields.io/npm/l/react-quick-timeline?style=flat-square)
+
+A simple, customizable, responsive &amp; quick timeline UI component for reactjs applications.
 
 ## Installation
 
