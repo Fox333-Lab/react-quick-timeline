@@ -22,5 +22,6 @@ const Template = (args) => <QuickTimeline {...args} />;
 
 export const Timeline = Template.bind({});
 Timeline.args = {
-  headerCaption: "hello",
+  headerCaption: "Timeline Header",
+  footerCaption: "Timeline Footer",
 };
