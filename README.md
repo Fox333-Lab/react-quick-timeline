@@ -1,3 +1,5 @@
+<br />
+
 # react-quick-timeline
 
 ![NPM](https://img.shields.io/npm/l/react-quick-timeline?style=flat-square)
