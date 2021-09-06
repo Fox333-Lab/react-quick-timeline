@@ -24,7 +24,9 @@
     ]
   },
   "keywords": [
-    "timeline"
+    "timeline",
+    "UI Component",
+    "react"
   ],
   "author": "Sajin Soman",
   "license": "MIT",
