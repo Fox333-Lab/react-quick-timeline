@@ -6,6 +6,8 @@
 
 A simple, customizable, responsive &amp; quick timeline UI component for reactjs applications.
 
+<br />
+
 ## Installation
 
 <br />
